@@ -80,3 +80,10 @@ npm start
 python worker.py
 ```
 
+## To test the requests
+
+```bash
+curl -X POST http://IP_DO_CELULAR:8000/compute \
+     -H "Content-Type: application/json" \
+     -d '{"start": 0, "end": 100000}'
+```
