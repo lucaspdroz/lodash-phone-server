@@ -59,7 +59,24 @@ ssh -p 8022 u0_aXXX@192.168.0.15
 
 Ou
 
-```
+```bash
 ssh -p 8022 192.168.0.15
+```
+
+## To run the example projects:
+
+As a normal project of each platform 
+
+In PC (or other thing) running the client.
+
+> python pc.py
+
+```nodejs
+npm install
+npm start
+```
+
+```nodejs
+python worker.py
 ```
 
